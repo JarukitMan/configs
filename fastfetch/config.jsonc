@@ -139,7 +139,7 @@
       },
       {
     	"type":"title",
-	"format":"                 {6}{7}{8} \u001b[2m{4}\u001b[F",
+	"format":"                  {6}{7}{8} \u001b[2m{4}\u001b[F",
 	"color": {
 		"user":"blue",
 		"at":"magenta",
