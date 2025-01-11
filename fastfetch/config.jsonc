@@ -37,12 +37,12 @@
     {
 	    "type":"kernel",
 	    "key":"   Kernel",
-	    "format": "{1}\u001b[2m (\u001b[34m{2}\u001b[37m)\u001b[0m"
+	    "format": "{1} \u001b[2m(\u001b[34m{2}\u001b[37m)\u001b[0m"
     },
     {
 	    "type":"uptime",
 	    "key":"   Uptime",
-	    "format": ""
+	    "format": "{2} Hours {3} Mins \u001b[2m(\u001b[34m{6}\u001b[37m)\u001b[0m"
     },
     {
 	    "type":"packages",
@@ -131,7 +131,7 @@
     {
 	    "type":"datetime",
 	    "key":"   Time & Date",
-	    "format":"{14}:{18}:{20} \u001b[2m(\u001b[34m{1}-{6}-{23}\u001b[37m) [\u001b[36mUTF{22}\u001b[32m]\u001b[0m"
+	    "format":"{14}:{18}:{20} \u001b[2m(\u001b[34m{1}-{4}-{23}\u001b[37m) [\u001b[36mUTF{22}\u001b[32m]\u001b[0m"
     },
       {
           "type": "custom",
