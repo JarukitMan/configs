@@ -18,11 +18,11 @@
   "modules": [
       {
           "type": "custom",
-          "format": " \u001b[4;1;35m  \u001b[95mSubject to Change.\u001b[35m  \u001b[34m  \u001b[94m   \u001b[36m  \u001b[96m   \u001b[32m  \u001b[92m   \u001b[33m  \u001b[93m   \u001b[31m  \u001b[91m   \u001b[0m "
+          "format": " \u001b[4;1;35m  \u001b[95m Subject to Change.\u001b[35m  \u001b[34m   \u001b[94m  \u001b[36m  \u001b[96m   \u001b[32m  \u001b[92m   \u001b[33m  \u001b[93m   \u001b[31m  \u001b[91m   \u001b[0m "
       },
       {
           "type": "custom",
-          "format": "┌────────────────────────────────────────────────┐"
+          "format": "┌─────────────────────────────────────────────────┐"
       },
     {
 	    "type":"os",
@@ -135,7 +135,7 @@
     },
       {
           "type": "custom",
-          "format": "└────────────────────────────────────────────────┘"
+          "format": "└─────────────────────────────────────────────────┘"
       },
       {
     	"type":"title",
@@ -148,7 +148,7 @@
       },
     {
 	    "type": "colors",
-	    "paddingleft": 1,
+	    "paddingleft": 2,
 	    "symbol": "circle"
     },
     "break"
