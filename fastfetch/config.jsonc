@@ -118,7 +118,7 @@
     {
 	    "type":"sound",
 	    "key":"  󰓃 Sound",
-	    "format":"Raptor Lake \u001b[2m({3}\u001b[2m)\u001b[0m \u001b[2m[\u001b[36m{6}\u001b[37m]\u001b[0m" //The full name is way too long, so it is hard-coded in.
+	    "format":"Raptor Lake \u001b[2m({3}\u001b[2m)\u001b[0m \u001b[2m(\u001b[34m{6}\u001b[37m)\u001b[0m" //The full name is way too long, so it is hard-coded in.
     },
 //    "sound",
     {
