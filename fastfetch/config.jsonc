@@ -27,7 +27,7 @@
     {
 	    "type":"os",
 	    "key":"  󰣇 OS",
-	    "format": "{3}\u001b[2m [\u001b[36m{12}\u001b[37m]\u001b[0m"
+	    "format": "{3}\u001b[2m [\u001b[36m{12}\u001b[39m]\u001b[0m"
     },
     {
 	    "type":"host",
@@ -37,34 +37,34 @@
     {
 	    "type":"kernel",
 	    "key":"   Kernel",
-	    "format": "{1} \u001b[2m(\u001b[34m{2}\u001b[37m)\u001b[0m"
+	    "format": "{1} \u001b[2m(\u001b[34m{2}\u001b[39m)\u001b[0m"
     },
     {
 	    "type":"uptime",
 	    "key":"   Uptime",
-	    "format": "{2} Hours {3} Mins \u001b[2m(\u001b[34m{6}\u001b[37m)\u001b[0m"
+	    "format": "{2} Hours {3} Mins \u001b[2m(\u001b[34m{6}\u001b[39m)\u001b[0m"
     },
     {
 	    "type":"packages",
 	    "key":"  󰮯 Packages",
-	    "format": "pacman\u001b[2m (\u001b[32m{2}\u001b[37m)\u001b[0m"
+	    "format": "pacman\u001b[2m (\u001b[32m{2}\u001b[39m)\u001b[0m"
     },
     {
 	    "type":"shell",
 	    "key":"   Shell",
-	    "format": "{6}\u001b[2m (\u001b[34m{4}\u001b[37m) [\u001b[36m{7}\u001b[37m]\u001b[0m"
+	    "format": "{6}\u001b[2m (\u001b[34m{4}\u001b[39m) [\u001b[36m{7}\u001b[39m]\u001b[0m"
     },
     {
 	    "type":"display",
 	    "key":"  󰹑 Display",
 	    "paddingleft": 2,
-	    "format":"{1}x{2} @ {3}Hz\u001b[2m\u001b[37m [\u001b[36m{6}\u001b[37m]\u001b[0m"
+	    "format":"{1}x{2} @ {3}Hz\u001b[2m\u001b[39m [\u001b[36m{6}\u001b[39m]\u001b[0m"
     },
 //    "de",
     {
 	    "type":"wm",
 	    "key":"   Window Manager",
-	    "format":"{1}\u001b[2m [\u001b[36m{3}\u001b[37m]\u001b[0m"
+	    "format":"{1}\u001b[2m [\u001b[36m{3}\u001b[39m]\u001b[0m"
     },
 //    "wmtheme",
 //    "theme",
@@ -73,27 +73,27 @@
 //    {
 //	    "type":"cursor",
 //	    "key":"󰆽  Cursor",
-//	    "format":"{1}\u001b[2m (\u001b[32m{2}px\u001b[37m)\u001b[0m"
+//	    "format":"{1}\u001b[2m (\u001b[32m{2}px\u001b[39m)\u001b[0m"
 //    },
     {
 	    "type":"terminal",
 	    "key":"   Terminal",
-	    "format":"{5}\u001b[2m (\u001b[34m{6}\u001b[37m)\u001b[0m"
+	    "format":"{5}\u001b[2m (\u001b[34m{6}\u001b[39m)\u001b[0m"
     },
     {
 	    "type":"terminalfont",
 	    "key":"   Terminal Font",
-	    "format":"{2}\u001b[2m (\u001b[32m{3}pt\u001b[37m)\u001b[0m"
+	    "format":"{2}\u001b[2m (\u001b[32m{3}pt\u001b[39m)\u001b[0m"
     },
     {
 	    "type":"cpu",
 	    "key":"   CPU",
-	    "format":"{2}\u001b[2m [\u001b[36m{5} @ {7}\u001b[37m]\u001b[0m"
+	    "format":"{2}\u001b[2m [\u001b[36m{5} @ {7}\u001b[39m]\u001b[0m"
     },
     {
 	    "type":"gpu",
 	    "key":"  󰢮 GPU",
-	    "format":"{1}\u001b[2m [\u001b[36m{6}\u001b[37m]\u001b[0m"
+	    "format":"{1}\u001b[2m [\u001b[36m{6}\u001b[39m]\u001b[0m"
     },
     {
 	    "type":"memory",
@@ -113,25 +113,25 @@
     {
 	    "type":"localip",
 	    "key":"   My \u001b[0m\u001b[38;2;80;80;240mHouse\u001b[0m",
-	    "format":"{1}\u001b[2m [\u001b[36mIPv4\u001b[37m]\u001b[0m"
+	    "format":"{1}\u001b[2m [\u001b[36mIPv4\u001b[39m]\u001b[0m"
     },
     {
 	    "type":"sound",
 	    "key":"  󰓃 Sound",
-	    "format":"Raptor Lake \u001b[2m({3}\u001b[2m)\u001b[0m \u001b[2m(\u001b[34m{6}\u001b[37m)\u001b[0m" //The full name is way too long, so it is hard-coded in.
+	    "format":"Raptor Lake \u001b[2m({3}\u001b[2m)\u001b[0m \u001b[2m(\u001b[34m{6}\u001b[39m)\u001b[0m" //The full name is way too long, so it is hard-coded in.
     },
 //    "sound",
     {
 	    "type":"battery",
 	    "key":"   Battery",
-	    "format":"{3}\u001b[2m ({4}\u001b[2m) (\u001b[34m{5}\u001b[37m)\u001b[0m"
+	    "format":"{3}\u001b[2m ({4}\u001b[2m) (\u001b[34m{5}\u001b[39m)\u001b[0m"
     },
 //    "poweradapter",
 //    "locale",
     {
 	    "type":"datetime",
 	    "key":"   Time & Date",
-	    "format":"{14}:{18}:{20} \u001b[2m(\u001b[34m{1}-{4}-{23}\u001b[37m) [\u001b[36mUTF{22}\u001b[32m]\u001b[0m"
+	    "format":"{14}:{18}:{20} \u001b[2m(\u001b[34m{1}-{4}-{23}\u001b[39m) [\u001b[36mUTF{22}\u001b[39m]\u001b[0m"
     },
       {
           "type": "custom",
