@@ -1,0 +1,5 @@
+[opener]
+edit = [
+    { run = 'vim "$@"', block = true, for = "unix" },
+    { run = 'vim %*', block = true, for = "windows" },
+]

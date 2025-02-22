@@ -1,7 +1,7 @@
 enable_audio_bell no
 
 # BEGIN_KITTY_THEME
-# Dracula
+# Pencil Light
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -15,3 +15,5 @@ font_size 10.0
 
 background_opacity 0.9
 confirm_os_window_close 0
+
+shell_integration no-cursor
