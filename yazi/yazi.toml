@@ -1,5 +1,13 @@
 [opener]
 edit = [
-    { run = 'vim "$@"', block = true, for = "unix" },
-    { run = 'vim %*', block = true, for = "windows" },
+    { run = 'helix "$@"', block = true, for = "unix" },
+    { run = 'helix %*', block = true, for = "windows" },
 ]
+
+[[opener.bulk-rename]]
+run   = 'helix "$@"'
+block = true
+
+[[open.prepend_rules]]
+name = "bulk-rename.txt"
+use  = "bulk-rename"

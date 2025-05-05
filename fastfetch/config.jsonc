@@ -93,11 +93,11 @@
     {
 	    "type":"gpu",
 	    "key":"  󰢮 GPU",
-	    "format":"{1}\u001b[2m [\u001b[36m{6}\u001b[39m]\u001b[0m"
+	    "format":"{1}\u001b[2m [\u001b[36m{2}\u001b[39m]\u001b[0m"
     },
     {
 	    "type":"memory",
-	    "key":"   Memory",
+	    "key":"   Memory",
 	    "format":"{1} / {2}\u001b[2m ({3}\u001b[2m)\u001b[0m"
     },
     {

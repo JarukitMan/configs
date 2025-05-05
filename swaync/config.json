@@ -40,7 +40,7 @@
           "label": "",
           "type": "toggle",
           "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == false ]] && amixer sset Master on || amixer sset Master off'",
-	  "update-command": "sh -c '[[ $(amixer sget Master | grep -c \"\\[off\\]\") > 0 ]] && echo true || echo false'"
+	  "update-command": "sh -c '[[ $(amixer sget Master | grep -c \"off\") > 0 ]] && echo true || echo false'"
         },
 	{
           "label": "",
