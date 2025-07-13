@@ -24,7 +24,7 @@
 .control-center .notification-row:focus,
 .control-center .notification-row:hover {
   opacity: 1;
-  background: @noti-bg-darker;
+  background: transparent;
   border-radius: 8px;
 }
 
@@ -45,7 +45,27 @@
 
 .notification-content {
   background: @cc-bg;
+  padding: 2px;
   border-radius: 8px;
+}
+
+.notification-group {
+  background: transparent;
+}
+
+.notification-group-headers .notification-group-header {
+  color: @text-color;
+}
+
+.notification-group-icon {
+  color: @text-color;
+}
+
+.notification-group-buttons {
+  color: @text-color;
+}
+.notification-group-close-button {
+  color: @text-color;
 }
 
 .notification-default-action {
@@ -56,6 +76,7 @@
 
 .widget-volume {
   background-color: @noti-bg;
+  color: @text-color;
   padding: 4px 4px 4px 20px;
   margin: 0px 8px 8px 8px;
   border-radius: 4px;
