@@ -17,7 +17,8 @@
 @define-color cc-focus rgb(205, 160, 110);
 @define-color blank-window alpha(white, 0.1);
 
-* {
+:root {
+  --notification-icon-size: 64px;
   font-family: Courier Prime;
 }
 
@@ -39,7 +40,7 @@
   background: @cc-bg;
   border: 2px solid @noti-border-color;
   border-radius: 0px;
-  margin: 3px -2px 3px 0px;
+  margin: 2px 0px 2px 0px;
   border-radius: 8px;
 }
 
@@ -144,11 +145,6 @@
   background: @noti-first-child;
 }
 
-.image {
-  border-radius: 4px;
-  margin-right: 10px;
-}
-
 .summary {
   font-size: 16px;
   font-weight: 700;
@@ -163,7 +159,6 @@
   background: transparent;
   color: @text-color;
   text-shadow: none;
-  margin-right: 18px;
 }
 
 .body {
